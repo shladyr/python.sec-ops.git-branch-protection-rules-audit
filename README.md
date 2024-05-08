@@ -5,7 +5,8 @@ This script is used to view or set the master branch protection for supplied rep
 # Requirements
 $ pip3 install PyGithub
 
-# Examples
+# Call graph diagram
+![Call graph.png](Call graph.png)
 
 # QA examples
 $  python3 git_branch_protection.py --url https://github.company.com/api/v3 --org devops-team --username ACC --token *** --view --all
