@@ -6,7 +6,7 @@ This script is used to view or set the master branch protection for supplied rep
 $ pip3 install PyGithub
 
 # Call graph diagram
-![Call graph.png](Call graph.png)
+![call_graph.png](call_graph.png)
 
 # QA examples
 $  python3 git_branch_protection.py --url https://github.company.com/api/v3 --org devops-team --username ACC --token *** --view --all
