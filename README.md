@@ -9,9 +9,12 @@ $ pip3 install PyGithub
 ![call_graph.png](call_graph.png)
 
 # QA examples
+```
 $  python3 git_branch_protection.py --url https://github.company.com/api/v3 --org devops-team --username ACC --token *** --view --all
+```
+```
 $  python3 git_branch_protection.py --url https://github.company.com/api/v3 --org devops-team --username ACC --token *** --view --repo app-microservice-abc
-
+```
 
 ## View chosen repos
 
